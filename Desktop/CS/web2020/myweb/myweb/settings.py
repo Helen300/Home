@@ -125,3 +125,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'home/static'),
 ]
 
+import django_heroku
+django_heroku.settings(locals())
